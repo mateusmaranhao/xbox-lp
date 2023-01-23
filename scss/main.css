@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  color: #C0C0C0;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #0C0C0C;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 143.5rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+@media (max-width: 1440px) {
+  .container {
+    max-width: 124.8rem;
+  }
+}
+
+.btn {
+  background-color: #9BF00B;
+  color: #0C0C0C;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  padding: 2.1rem 3rem;
+}
+
+header {
+  padding-top: 4.8rem;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container ul {
+  display: flex;
+  gap: 48px;
+}
+header .container ul li a {
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+header .container ul li a:hover {
+  color: #9BF00B;
+  transition: all 0.3s ease;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,29 @@
+header {
+    padding-top: 4.8rem;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul {
+            display: flex;
+            gap: 48px;
+
+
+            li {
+                a {
+                    font-weight: 600;
+                    font-size: 1.7rem;
+                    line-height: 2.1rem;
+                    letter-spacing: 0.01em;
+                    color: $white;
+
+                    &:hover {
+                        color: $accent;
+                        transition: all 0.3s ease;
+                    }
+                }
+            }
+        }
+    }
+}
