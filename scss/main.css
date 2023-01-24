@@ -133,4 +133,11 @@ header .container ul li a:hover {
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 4.1rem;
+}
+
+.s-games {
+  margin-top: 30rem;
+}
+.s-games .games {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
