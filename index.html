@@ -12,15 +12,15 @@
     <title>XBOX</title>
     <link rel="icon" type="image/png" href="./fav.png">
 
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./scss/main.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="./img/logo-xbox.svg" alt="logo" class="logo">
+            <img src="./img/logo-xbox.svg" alt="logo" class="logo" data-aos="fade-right">
 
-            <ul>
+            <ul data-aos="fade-down">
                 <li>
                     <a href="./">VISÃO GERAL</a>
                 </li>
@@ -38,14 +38,14 @@
                 </li>
             </ul>
 
-            <a href="./" class="btn">VER DISPONIBILIDADE</a>
+            <a href="./" class="btn" data-aos="fade-left">VER DISPONIBILIDADE</a>
         </div>
     </header>
 
     <section class="s-hero">
         <div class="container">
-            <h1 class="title">Xbox series X</h1>
-            <span class="subtitle">Pedido Antecipado</span>
+            <h1 class="title" data-aos="fade-right">Xbox series X</h1>
+            <p data-aos="fade-left" class="subtitle">Pedido Antecipado</p>
 
             <img src="./img/xbox.png" alt="Xbox" class="xbox-img">
         </div>
@@ -53,7 +53,7 @@
 
     <section class="s-gamepad-info">
         <div class="container">
-            <div class="left">
+            <div class="left" data-aos="fade-right">
                 <h2>
                     <span class="accent">Desempenho</span> aperfeiçoado
                 </h2>
@@ -63,7 +63,7 @@
                 </p>
             </div>
     
-            <div class="right">
+            <div class="right" data-aos="fade-left">
                 <img src="./img/controle-xbox.png" alt="Controle do Xbox series X/S" class="gamepad">
             </div>
         </div>
@@ -71,7 +71,7 @@
 
     </section>
 
-    <section class="s-games">
+    <section class="s-games" data-aos="fade-up">
         <ul class="games">
             <li>
                 <img src="./img/farcry.png" alt="Far Cry 6">
@@ -90,17 +90,17 @@
 
     <section class="s-accordion">
         <div class="container">
-                <div class="title">
+                <div class="title" data-aos="fade-right">
                     <h2>
                         <span class="accent">Perguntas</span> frequentes
                     </h2>
                 </div>
 
                 <div class="question-group">
-                    <div class="question">
+                    <div class="question" data-aos="fade-up">
                         <p>Meus jogos anteriores do Xbox vão funcionar no Xbox Series X?</p>
                     
-                        <img src="./img/accordion-arrow.svg" alt="Ícone de seta" class="icon">
+                        <img src="./img/accordion-arrow.svg" alt="Ícone de seta" class="icon" >
                     </div>
 
                     <div class="answer">
@@ -112,7 +112,7 @@
 
 
                 <div class="question-group">
-                    <div class="question">
+                    <div class="question" data-aos="fade-up">
                         <p>O que está incluído no Xbox Series X?</p>
                     
                         <img src="./img/accordion-arrow.svg" alt="Ícone de seta" class="icon">
@@ -126,7 +126,7 @@
                 </div>
 
                 <div class="question-group">
-                    <div class="question">
+                    <div class="question" data-aos="fade-up">
                         <p>Como sei se minha TV é compatível com 4K?</p>
                     
                         <img src="./img/accordion-arrow.svg" alt="Ícone de seta" class="icon">
@@ -154,6 +154,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

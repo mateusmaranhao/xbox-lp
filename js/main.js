@@ -12,3 +12,8 @@ for(i = 0; i < question.length; i++) {
         });
     });
 }
+
+AOS.init({
+    duration: 1000,
+    once: true,
+  })
