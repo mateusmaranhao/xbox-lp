@@ -140,4 +140,53 @@ header .container ul li a:hover {
 }
 .s-games .games {
   display: flex;
+}
+
+.s-accordion {
+  margin-top: 30rem;
+}
+.s-accordion .container .question-group {
+  flex: 1 1 100%;
+  width: 100%;
+  border-bottom: 1px solid #2E2E2E;
+  overflow: hidden;
+  min-height: auto;
+  height: 5rem;
+  transition: all 0.6s ease;
+  margin-top: 4.3rem;
+}
+.s-accordion .container .question-group .question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+}
+.s-accordion .container .question-group .question p {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #FFFFFF;
+}
+.s-accordion .container .question-group .question .icon {
+  filter: saturate(0);
+  transform: rotate(180deg);
+  transition: all 0.6s;
+  padding: 2rem 1rem;
+  cursor: pointer;
+}
+.s-accordion .container .question-group .answer {
+  margin-top: 2.5rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #C0C0C0;
+  padding-left: 2rem;
+}
+.s-accordion .container .question-group.clicked .question .icon {
+  transform: rotate(0);
+  filter: none;
+}
+.s-accordion .container .question-group.active {
+  height: 15rem;
 }/*# sourceMappingURL=main.css.map */
