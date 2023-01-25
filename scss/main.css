@@ -189,4 +189,21 @@ header .container ul li a:hover {
 }
 .s-accordion .container .question-group.active {
   height: 15rem;
+}
+
+footer {
+  margin: 19rem 0 5rem;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container .right span {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #777777;
+}
+footer .container .right span:not(:last-child) {
+  margin-right: 5.6rem;
 }/*# sourceMappingURL=main.css.map */

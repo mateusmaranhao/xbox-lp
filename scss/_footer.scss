@@ -1,0 +1,21 @@
+footer {
+    margin: 19rem 0 5rem;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .right {
+            span {
+                font-size: 1.8rem;
+                line-height: 2.7rem;
+                color: $gray-200;
+
+                &:not(:last-child) {
+                    margin-right: 5.6rem;
+                }
+            }
+        }
+    }
+}
