@@ -26,4 +26,54 @@ header {
             }
         }
     }
+
+    @media(max-width: 1200px) {
+        .container {
+            padding: 0 3.5rem;
+        }
+    }
+    @media(max-width: 991px) {
+        .container {
+            flex-direction: column;
+
+            ul {
+                margin-top: 2.4rem;
+                gap: 2.8rem;
+
+                li {
+                    a {
+                        font-size: 1.4rem;
+                        line-height: 1rem;
+
+                        background-color: $gray-400;
+                        padding: 0.6rem 1rem;
+                        border-radius: 5rem;
+                    }
+                }
+            }
+
+            .btn {
+                margin-top: 5.6rem;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+    @media(max-width: 580px) {
+        padding-top: 3.5rem;
+        .container {
+            .logo {
+                width: 7rem;
+            }
+
+            ul {
+                gap: 2.4rem;
+                li {
+                    a {
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
 }

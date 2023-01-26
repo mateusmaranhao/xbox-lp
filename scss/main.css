@@ -84,11 +84,52 @@ header .container ul li a:hover {
   color: #9BF00B;
   transition: all 0.3s ease;
 }
+@media (max-width: 1200px) {
+  header .container {
+    padding: 0 3.5rem;
+  }
+}
+@media (max-width: 991px) {
+  header .container {
+    flex-direction: column;
+  }
+  header .container ul {
+    margin-top: 2.4rem;
+    gap: 2.8rem;
+  }
+  header .container ul li a {
+    font-size: 1.4rem;
+    line-height: 1rem;
+    background-color: #30322F;
+    padding: 0.6rem 1rem;
+    border-radius: 5rem;
+  }
+  header .container .btn {
+    margin-top: 5.6rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 580px) {
+  header {
+    padding-top: 3.5rem;
+  }
+  header .container .logo {
+    width: 7rem;
+  }
+  header .container ul {
+    gap: 2.4rem;
+  }
+  header .container ul li a {
+    font-size: 8px;
+  }
+}
 
 .s-hero {
   background-image: url("../img/bg-blur.png");
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .s-hero .container {
   padding-top: 17.5rem;
