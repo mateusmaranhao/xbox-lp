@@ -151,6 +151,21 @@ header .container ul li a:hover {
 .s-hero .container .xbox-img {
   margin: 1.3rem auto 0;
 }
+@media (max-width: 991px) {
+  .s-hero .container {
+    padding-top: 6rem;
+  }
+  .s-hero .container .title {
+    font-size: 3.6rem;
+    line-height: 4.1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 580px) {
+  .s-hero .container {
+    padding-top: 3rem;
+  }
+}
 
 .s-gamepad-info {
   margin-top: 30rem;
