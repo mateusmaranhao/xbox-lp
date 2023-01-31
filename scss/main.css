@@ -237,6 +237,21 @@ header .container ul li a:hover {
 .s-games .games {
   display: flex;
 }
+@media (max-width: 991px) {
+  .s-games {
+    margin-top: 10rem;
+  }
+}
+@media (max-width: 580px) {
+  .s-games .games {
+    flex-direction: column;
+  }
+  .s-games .games li {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+}
 
 .s-accordion {
   margin-top: 30rem;

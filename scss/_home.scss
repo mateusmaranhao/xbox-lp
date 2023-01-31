@@ -126,6 +126,21 @@
     .games {
         display: flex;
     }
+
+    @media(max-width: 991px) {
+        margin-top: 10rem;
+    }
+    @media(max-width: 580px) {
+        
+        .games {
+            flex-direction: column;
+
+            li {
+                position: sticky;
+                top: 0;
+            }
+        }
+    }
 }
 
 .s-accordion {
