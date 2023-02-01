@@ -368,4 +368,24 @@ footer .container .right span {
 }
 footer .container .right span:not(:last-child) {
   margin-right: 5.6rem;
+}
+@media (max-width: 991px) {
+  footer {
+    margin-top: 10rem;
+  }
+}
+@media (max-width: 580px) {
+  footer {
+    margin: 4rem 0 2rem;
+  }
+  footer .container .left {
+    width: 8.3rem;
+  }
+  footer .container .right span {
+    width: 100%;
+    display: block;
+    text-align: right;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
 }/*# sourceMappingURL=main.css.map */
