@@ -301,6 +301,57 @@ header .container ul li a:hover {
 .s-accordion .container .question-group.active {
   height: 15rem;
 }
+@media (max-width: 991px) {
+  .s-accordion {
+    margin-top: 10rem;
+  }
+  .s-accordion .container .title h2 {
+    font-size: 4.5rem;
+  }
+  .s-accordion .container .question-group {
+    height: 7rem;
+    margin-top: 4rem;
+  }
+  .s-accordion .container .question-group .question p {
+    font-size: 18px;
+    line-height: 2.7rem;
+  }
+  .s-accordion .container .question-group .answer {
+    margin-top: 1.5rem;
+  }
+  .s-accordion .container .question-group.clicked {
+    height: 12rem;
+  }
+}
+@media (max-width: 580px) {
+  .s-accordion {
+    margin-top: 4rem;
+  }
+  .s-accordion .container .title h2 {
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+  }
+  .s-accordion .container .question-group {
+    height: 4.5rem;
+  }
+  .s-accordion .container .question-group .question p {
+    width: 263px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  .s-accordion .container .question-group .question .icon {
+    width: 3.5rem;
+    padding: 1.2rem 1rem;
+  }
+  .s-accordion .container .question-group .answer p {
+    width: 25.1rem;
+    font-size: 1.2rem;
+    line-height: 18px;
+  }
+  .s-accordion .container .question-group.clicked {
+    height: 10rem;
+  }
+}
 
 footer {
   margin: 19rem 0 5rem;

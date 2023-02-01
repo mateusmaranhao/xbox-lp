@@ -203,4 +203,74 @@
             }
         } 
     }
+
+    @media(max-width: 991px) {
+        margin-top: 10rem;
+        
+        .container {
+            .title {
+                h2 {
+                    font-size: 4.5rem;
+                }
+            }
+            .question-group {
+                height: 7rem;
+                margin-top: 4rem;
+
+                .question {
+                    p {
+                        font-size: 18px;
+                        line-height: 2.7rem;
+                    }
+                }
+
+                .answer {
+                    margin-top: 1.5rem;
+                }
+
+                &.clicked {
+                    height: 12rem;
+                }
+            }
+        }
+    }
+    @media(max-width: 580px) {
+        margin-top: 4rem;
+        
+        .container {
+            .title {
+                h2 {
+                    font-size: 2.4rem;
+                    line-height: 3.1rem;
+                }
+            }
+
+            .question-group {
+                height: 4.5rem;
+                .question {
+                    p {
+                        width: 263px;
+                        font-size: 1.2rem;
+                        line-height: 1.8rem;
+                    }
+
+                    .icon {
+                        width: 3.5rem;
+                        padding: 1.2rem 1rem;
+                    }
+                }
+
+                .answer {
+                    p {
+                        width: 25.1rem;
+                        font-size: 1.2rem;
+                        line-height: 18px;
+                    }
+                }
+                &.clicked {
+                    height: 10rem;
+                }
+            }
+        }
+    }
 }
