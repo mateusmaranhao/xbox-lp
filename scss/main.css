@@ -319,8 +319,14 @@ header .container ul li a:hover {
   .s-accordion .container .question-group .answer {
     margin-top: 1.5rem;
   }
-  .s-accordion .container .question-group.clicked {
-    height: 12rem;
+  .s-accordion .container .question-group.clicked:nth-child(2) {
+    height: 13.5rem;
+  }
+  .s-accordion .container .question-group.clicked:nth-child(3) {
+    height: 16rem;
+  }
+  .s-accordion .container .question-group.clicked:nth-child(4) {
+    height: 13.5rem;
   }
 }
 @media (max-width: 580px) {
@@ -348,8 +354,14 @@ header .container ul li a:hover {
     font-size: 1.2rem;
     line-height: 18px;
   }
-  .s-accordion .container .question-group.clicked {
-    height: 10rem;
+  .s-accordion .container .question-group.clicked:nth-child(2) {
+    height: 12rem;
+  }
+  .s-accordion .container .question-group.clicked:nth-child(3) {
+    height: 15rem;
+  }
+  .s-accordion .container .question-group.clicked:nth-child(4) {
+    height: 11rem;
   }
 }
 

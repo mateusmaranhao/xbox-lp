@@ -229,7 +229,15 @@
                 }
 
                 &.clicked {
-                    height: 12rem;
+                    &:nth-child(2) {
+                        height: 13.5rem;
+                    } 
+                    &:nth-child(3) {
+                        height: 16rem;
+                    } 
+                    &:nth-child(4) {
+                        height: 13.5rem;
+                    } 
                 }
             }
         }
@@ -268,7 +276,15 @@
                     }
                 }
                 &.clicked {
-                    height: 10rem;
+                    &:nth-child(2) {
+                        height: 12rem;
+                    } 
+                    &:nth-child(3) {
+                        height: 15rem;
+                    } 
+                    &:nth-child(4) {
+                        height: 11rem;
+                    } 
                 }
             }
         }
